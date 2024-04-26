@@ -10,8 +10,8 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-  CommandShortcut,
 } from "@/components/ui/command"
+import Link from 'next/link';
 import { Mina } from 'next/font/google';
 
 const fugaz = Mina({ subsets: ['latin'], weight: ['400'] })
@@ -26,7 +26,8 @@ export function SideNavbar() {
         <CommandGroup className='pb-11'>
           <span className=' font-semibold  text-sm'>All Components</span>
           {componentlist.map((data, i) => (
-            <CommandItem className='group bg-white  dark:bg-black' key={i}>
+            <Link href={`/components/${data.Link}`}>
+            <CommandItem className='group' key={i}>
               <motion.button
                 className='w-full h-full flex items-center justify-start'
                 
@@ -40,6 +41,7 @@ export function SideNavbar() {
                 <span className={`${fugaz.className} text-sm opacity-70 group-hover:text-base group-hover:shadow-blue-500/50  group-hover:opacity-100 group-hover:text-blue-500`}>{data.Name}</span>
               </motion.button>
             </CommandItem>
+            </Link>
           ))}
         </CommandGroup>
       </CommandList>

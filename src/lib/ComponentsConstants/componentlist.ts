@@ -4,83 +4,12 @@ export const componentlist=[
         Link:"/accordion"
     },
     {
-        Name:"Accordion",
-        Link:"/accordion"
+        Name:"AlertDialog",
+        Link:"/alertdialog"
     },
     {
-        Name:"Accordion",
-        Link:"/accordion"
+        Name:"Avatar",
+        Link:"/avatar"
     },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
-    {
-        Name:"Accordion",
-        Link:"/accordion"
-    },
+
 ]

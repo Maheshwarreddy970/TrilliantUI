@@ -7,11 +7,11 @@ export default function page({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="flex pl-9">
+    <div className="flex px-9">
       <div className="h-full w-3/12 px-12 mt-20 flex fixed justify-center">
-      <SideNavbar ></SideNavbar>
+      <SideNavbar></SideNavbar>
       </div>
-      <div className="w-8/12	">
+      <div className="w-full mt-20 ml-80">
         {children}
       </div>
     </div>
